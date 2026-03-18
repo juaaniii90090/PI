@@ -30,4 +30,5 @@ void nPrimos(unsigned int cantidadPrimos){
 }
 int main (void){
     nPrimos(20);
+    printf("\n");
 }
