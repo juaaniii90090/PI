@@ -20,11 +20,11 @@ for(int i=1 ; i < N2 ; i++){
 
 
 if(N2 == div1 && N1 == div2){
-    printf("Son amigos");
+    printf("Son amigos\n");
     return 1;
 }
 else{
-    printf("Son enemigos");
+    printf("Son enemigos\n");
     return 0;    
 }
 }

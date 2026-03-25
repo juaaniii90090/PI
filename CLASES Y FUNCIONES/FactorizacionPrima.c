@@ -50,11 +50,12 @@ void nPrimos(unsigned int cantidadPrimos){
         i++;
         if (esPrimo(i) == 1){
             encontrados++;
-            printf("%d ", i);
+            printf("%d ; ", i);
         }
     }
 
 }
 int main (void){
-    factorizacionPrima(8293813);
+    nPrimos(100000);
+    printf("\n");
 }
